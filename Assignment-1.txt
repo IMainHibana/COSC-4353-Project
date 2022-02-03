@@ -1,0 +1,15 @@
+#Discuss Assignment 1
+
+- Regarding the client location, it should be regarded as a boolean variable in the database considering its categorical and only has two options, that being 
+in or out of state. 
+- The client history should be a variable that determines if an existing customer has made at least one fuel quote, if not then we consider them a new user,
+else we'll consider them a returning user.
+- Gallons requested will be user input, stored as an integer, unless for the purposes of this assignment there can be non-integer values, if so we'll make it a 
+floating-point value
+- Company profit margin will be some sort of multiplicative value, assuming this value doesn't change, it'll be a constant, but it'll be a significant value for the
+overall fuel rate
+- The login feature should first, actually login the user if the information entered is stored in the database, if the information entered is incorrect/non-existent
+an error message will come up to notify the user to enter the correct information]
+-With regards to client profile management, users will be able to alter their information that would be important in determining their fuel quote.
+
+
