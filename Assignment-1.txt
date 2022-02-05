@@ -1,4 +1,5 @@
 #Discuss Assignment 1
+#Aaron Wright:
 
 - Regarding the client location, it should be regarded as a boolean variable in the database considering its categorical and only has two options, that being 
 in or out of state. This value will be compared to whatever state that we use for the database, if a user's state matches the one in the database, our variable
