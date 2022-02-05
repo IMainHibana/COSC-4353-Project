@@ -12,5 +12,6 @@ overall fuel rate
 - The login feature should first, actually login the user if the information entered is stored in the database, if the information entered is incorrect/non-existent
 an error message will come up to notify the user to enter the correct information]
 -With regards to client profile management, users will be able to alter their information that would be important in determining their fuel quote.
--The fuel quote form and module will have  
+-The fuel quote form and module will have the function necessary to calculate the fuel rate, with the information provided by the user. This function will return a float/double since there would be a decimal involved with the price.
+- fuel quote history can be some sort stack that holds previous transactions for a user if the quote history is user-specific, if its for the entire software applicaton, we'll store it in a list.
 
