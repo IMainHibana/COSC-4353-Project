@@ -1,7 +1,8 @@
 #Discuss Assignment 1
 
 - Regarding the client location, it should be regarded as a boolean variable in the database considering its categorical and only has two options, that being 
-in or out of state. 
+in or out of state. This value will be compared to whatever state that we use for the database, if a user's state matches the one in the database, our variable
+will return true, if not then false
 - The client history should be a variable that determines if an existing customer has made at least one fuel quote, if not then we consider them a new user,
 else we'll consider them a returning user.
 - Gallons requested will be user input, stored as an integer, unless for the purposes of this assignment there can be non-integer values, if so we'll make it a 
@@ -11,5 +12,5 @@ overall fuel rate
 - The login feature should first, actually login the user if the information entered is stored in the database, if the information entered is incorrect/non-existent
 an error message will come up to notify the user to enter the correct information]
 -With regards to client profile management, users will be able to alter their information that would be important in determining their fuel quote.
-
+-The fuel quote form and module will have  
 
