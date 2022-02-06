@@ -18,8 +18,14 @@ an error message will come up to notify the user to enter the correct informatio
 
 #Victor Kwok:
 
-- Regarding Question 2,  I believe we use the rapid application development methodology. Because the application mainly requires us to create a system which allows users to quote on the price of fuel, which doesn't require a complex design. Rapid application development methodology best suited for a project that does not require a complex design, by reducing the planning time needed, and focuses more on developing the prototype, which allows us to save much more time and cost.
+- Regarding Question 2,  I believe we use the rapid application development methodology. Because the application mainly requires us to create a system which allows users to quote 
+on the price of fuel, which doesn't require a complex design. Rapid application development methodology best suited for a project that does not require a complex design, by 
+reducing the planning time needed, and focuses more on developing the prototype, which allows us to save much more time and cost.
 - There should be an sql database for storing users' username and password, users' profile, and users' fuel quote history.
-- An admin feature should be implemented, where the admin user is allowed to have access to each client's profile within the system and fuel quote history, which allows the admins, which is us, to add changes to the application accordingly.
-- We should keep in mind that the requirement for the Client Registration is that initially it should only request the client to enter a username and a Password. Therefore after Client have succesfully registered, the application should immediately lead the client to a separate profile page which the Client would enter or manage their profile.
-- Resigter feature should require the Client to enter between 8 to 16 letter username, which can only be char and int, and it will then be stored as a string in the system. For the password, it has to have at least 1 special letter and 1 Capital letter and must be at least 5 letters and it will also be stored as a string within the database. If the requirements are not met, then the application would display a pop-up message saying "invalid username/password" and display the requirement of the username and password.
+- An admin feature should be implemented, where the admin user is allowed to have access to each client's profile within the system and fuel quote history, which allows the 
+admins, which is us, to add changes to the application accordingly.
+- We should keep in mind that the requirement for the Client Registration is that initially it should only request the client to enter a username and a Password. Therefore after 
+Client have succesfully registered, the application should immediately lead the client to a separate profile page which the Client would enter or manage their profile.
+- Resigter feature should require the Client to enter between 8 to 16 letter username, which can only be char and int, and it will then be stored as a string in the system. For 
+the password, it has to have at least 1 special letter and 1 Capital letter and must be at least 5 letters and it will also be stored as a string within the database. If the 
+requirements are not met, then the application would display a pop-up message saying "invalid username/password" and display the requirement of the username and password.
