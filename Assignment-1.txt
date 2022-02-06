@@ -1,6 +1,6 @@
 #Discuss Assignment 1
-#Aaron Wright:
 
+#Question 1
 - Regarding the client location, it should be regarded as a boolean variable in the database considering its categorical and only has two options, that being 
 in or out of state. This value will be compared to whatever state that we use for the database, if a user's state matches the one in the database, our variable
 will return true, if not then false
@@ -10,22 +10,24 @@ else we'll consider them a returning user.
 floating-point value
 - Company profit margin will be some sort of multiplicative value, assuming this value doesn't change, it'll be a constant, but it'll be a significant value for the
 overall fuel rate
+- Resigter feature should require the Client to enter between 8 to 16 letter username, which can only be char and int, and it will then be stored as a string in the system. For 
+the password, it has to have at least 1 special letter and 1 Capital letter and must be at least 5 letters and it will also be stored as a string within the database. If the 
+requirements are not met, then the application would display a pop-up message saying "invalid username/password" and display the requirement of the username and password.
 - The login feature should first, actually login the user if the information entered is stored in the database, if the information entered is incorrect/non-existent
-an error message will come up to notify the user to enter the correct information]
+an error message will come up to notify the user to enter the correct information
+- We should keep in mind that the requirement for the Client Registration is that initially it should only request the client to enter a username and a Password. Therefore after 
+Client have succesfully registered, the application should immediately lead the client to a separate profile page which the Client would enter or manage their profile.
+- There should be an sql database for storing users' username and password, users' profile, and users' fuel quote history.
+- An admin feature should be implemented, where the admin user is allowed to have access to each client's profile within the system and fuel quote history, which allows the 
+admins, which is us, to add changes to the application accordingly.
 -With regards to client profile management, users will be able to alter their information that would be important in determining their fuel quote.
 -The fuel quote form and module will have the function necessary to calculate the fuel rate, with the information provided by the user. This function will return a float/double since there would be a decimal involved with the price.
 - fuel quote history can be some sort stack that holds previous transactions for a user if the quote history is user-specific, if its for the entire software applicaton, we'll store it in a list.
 
-#Victor Kwok:
+#Question 2
 
 - Regarding Question 2,  I believe we should use the rapid application development methodology for this project. Because the application mainly requires us to create a system 
 which allows users to quote on the price of fuel, which doesn't require a complex design. Rapid application development methodology best suited for a project that does not require 
 a complex design, by reducing the planning time needed, and focuses more on developing the prototype, which allows us to save much more time and cost.
-- There should be an sql database for storing users' username and password, users' profile, and users' fuel quote history.
-- An admin feature should be implemented, where the admin user is allowed to have access to each client's profile within the system and fuel quote history, which allows the 
-admins, which is us, to add changes to the application accordingly.
-- We should keep in mind that the requirement for the Client Registration is that initially it should only request the client to enter a username and a Password. Therefore after 
-Client have succesfully registered, the application should immediately lead the client to a separate profile page which the Client would enter or manage their profile.
-- Resigter feature should require the Client to enter between 8 to 16 letter username, which can only be char and int, and it will then be stored as a string in the system. For 
-the password, it has to have at least 1 special letter and 1 Capital letter and must be at least 5 letters and it will also be stored as a string within the database. If the 
-requirements are not met, then the application would display a pop-up message saying "invalid username/password" and display the requirement of the username and password.
+
+
