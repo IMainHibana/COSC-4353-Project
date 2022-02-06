@@ -20,8 +20,13 @@ Some of the application’s features will function based on conditions, while ot
   b. Client history determines whether users are new or returning users.
   c. Gallons of fuel requested is an integer/floating-point value.
   d. Company profit margin is a constant (assuming it will not change) value that will help calculate fuel rates.
-  e. Log-in feature verifies whether or not users exist, and prompt actions from the user based on existing user confirmation, incorrect user information (like password), or non-existent user.
-  f. Fuel quote form returns fuel rates as floats/doubles determined by user information. Fuel quotes can be stored per each user to determine returning customers.
+  e. Log-in feature verifies whether or not users exist, and prompt actions from the user based on existing user confirmation, 
+     incorrect user information (like password), or non-existent user.
+  f. Fuel quote form returns fuel rates as floats/doubles determined by user information. 
+     Fuel quotes can be stored per each user to determine returning customers.
 
 
-Question 2: For this application, our team member, Victor, suggested rapid application development (RAD) as the methodology for this service. The service is simple in nature and should not require a complex design. A RAD approach is ideal in this situation, as a simple design allows for faster prototyping and lower time spent and cost. A RAD approach will allow our team to focus less on planning and more on developing, iteratively testing features and weeding out any issues, as well as responding to any changes in customer requirements.
+Question 2: For this application, our team member, Victor, suggested rapid application development (RAD) as the methodology for this service. 
+The service is simple in nature and should not require a complex design. A RAD approach is ideal in this situation, as a simple design allows for 
+faster prototyping and lower time spent and cost. A RAD approach will allow our team to focus less on planning and more on developing, 
+iteratively testing features and weeding out any issues, as well as responding to any changes in customer requirements.
