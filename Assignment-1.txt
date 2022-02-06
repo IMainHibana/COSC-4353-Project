@@ -18,9 +18,9 @@ an error message will come up to notify the user to enter the correct informatio
 
 #Victor Kwok:
 
-- Regarding Question 2,  I believe we use the rapid application development methodology. Because the application mainly requires us to create a system which allows users to quote 
-on the price of fuel, which doesn't require a complex design. Rapid application development methodology best suited for a project that does not require a complex design, by 
-reducing the planning time needed, and focuses more on developing the prototype, which allows us to save much more time and cost.
+- Regarding Question 2,  I believe we should use the rapid application development methodology for this project. Because the application mainly requires us to create a system 
+which allows users to quote on the price of fuel, which doesn't require a complex design. Rapid application development methodology best suited for a project that does not require 
+a complex design, by reducing the planning time needed, and focuses more on developing the prototype, which allows us to save much more time and cost.
 - There should be an sql database for storing users' username and password, users' profile, and users' fuel quote history.
 - An admin feature should be implemented, where the admin user is allowed to have access to each client's profile within the system and fuel quote history, which allows the 
 admins, which is us, to add changes to the application accordingly.
