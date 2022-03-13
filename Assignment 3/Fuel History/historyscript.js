@@ -1,6 +1,6 @@
 
 let myTable = document.querySelector('#table');
-let employees = [
+let orders = [
     { Order_Number: 1001, Gallons_Requested: 21, Order_Date: '11/30/2021', Price: 99.0 , Status: 'Pending', Delivered_Date: ' '},
     { Order_Number: 1002, Gallons_Requested: 31, Order_Date: '11/30/2021', Price: 100.0 , Status: 'Completed', Delivered_Date: '1/30/2022'},
     { Order_Number: 1003, Gallons_Requested: 58, Order_Date: '11/30/2021' , Price: 150.0, Status: 'Pending', Delivered_Date: ' '},
@@ -18,7 +18,7 @@ let headers = ['Order Number', 'Gallons Requested', 'Order Date', 'Price', 'Stat
         headerRow.appendChild(header);
     });
     table.appendChild(headerRow);
-    employees.forEach(emp => {
+    orders.forEach(emp => {
         let row = document.createElement('tr');
         Object.values(emp).forEach(text => {
             let cell = document.createElement('td');
