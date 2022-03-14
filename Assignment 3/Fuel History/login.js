@@ -24,7 +24,7 @@ form.addEventListener('submit', (e) => {
         e.preventDefault()
         localStorage.setItem("username", user.value)
         localStorage.setItem("password", pass.value)
-        window.location.href="home.html"
+        window.location.href="manager.html"
     }
     // client.end()
 })
