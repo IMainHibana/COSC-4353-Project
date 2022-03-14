@@ -5,6 +5,7 @@
         <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="historystyle.css">
             <title>Reliable Fuel Quotes</title>
+            <script defer src="fuelquotemodule+history.js"></script>
             <header>
                 <nav>
                     <a href="home.html">Home</a>
@@ -13,10 +14,44 @@
             </header>
 </head>
 <body>
-    
+    <table>
+        <tr>
+          <td style="background-image: linear-gradient(to bottom right, #000000, #000000);">GALLONS:</td>
+          <td style="background-image: linear-gradient(to bottom right, #000000, #000000);">
+            <input type = "number" id = "gallon" name = "user_gallons">
+          </td>
+        </tr>
+        <tr>
+          <td style="background-image: linear-gradient(to bottom right, #000000, #000000);">DELIVERY ADDRESS: </td>
+
+
+          <td style="background-image: linear-gradient(to bottom right, #000000, #000000);">
+            <input type = "text" name="user_address" placeholder="Ex. 13303 Folk St.">
+          </td>
+          </tr>
+          <tr style="background-image: linear-gradient(to bottom right, #000000, #000000);">
+            <td style="background-image: linear-gradient(to bottom right, #000000, #000000);">DELIVERY DATE: </td>
+
+
+            <td style="background-image: linear-gradient(to bottom right, #000000, #000000);">
+              <input type = "numeric" name="user_delivery_Date" id = "ddate" placeholder="MMDDYYYY">
+            </td>
+            </tr>
+            <tr>
+              <td style="background-image: linear-gradient(to bottom right, #000000, #000000);">SUGGESTED PRICE: </td>
+
+
+              <td style="background-image: linear-gradient(to bottom right, #000000, #000000);">
+                <input type = "numeric" name="user_price" id="price" value="$99.99">
+              </td>
+              </tr>
+    <table>
     <div>
         <div id="table"></div>
     </div>
-    <script src="historyscript.js"></script>
+    <script src="fuelquotemodule+history.js"></script>
+    <input type="button"  name="Submit" onclick="updatelist()" value="Submit">
+    <input type="button"  name="Fuel History" onclick="fuelhistory()" value="Fuel History">
+    
 </body>
 </html>
