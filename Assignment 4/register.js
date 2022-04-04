@@ -14,6 +14,7 @@ async function main(){
     await client.connect();
     form.addEventListener('submit', (e) => {
         if (user.value == ''){login_errors.push('Username required.')}
+        else if (user.value.length > 20){login_errors.push('Username is too long.')}
         else{
             let db_user = await client.query(`
                 SELECT * FROM user_credentials
@@ -24,8 +25,7 @@ async function main(){
         }
         if (pass.value == ''){login_errors.push('Password required.')}
         else{
-            let pw = pass.value;
-            if(pw.length < 8){login_errors.push('Password too short.')}
+            if(pass.value.length < 8){login_errors.push('Password too short.')}
         }
         if (login_errors.length > 0){
             e.preventDefault();
