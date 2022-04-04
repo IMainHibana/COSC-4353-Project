@@ -15,7 +15,7 @@ async function main(){
     
     let db_user = await client.query(`
             INSERT INTO fuel_quote_history(order_id, user_id, gallons_requested, delivery_address, delivery_date, price)
-            VALUES ('${currentorderNum}', '${localStorage.username},'${ordergallon}','${place}','${ddate}','${orderprice}');
+            VALUES ('${currentorderNum.value}', '${localStorage.username},'${ordergallon.value}','${place.value}','${ddate.value}','${orderprice.value}');
             `);
             currentorderNum++;
           
