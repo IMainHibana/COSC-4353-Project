@@ -23,4 +23,4 @@ INSERT INTO user_credentials (user_id, password_hash)
 INSERT INTO client_information (user_id, full_name, address_1, address_2, city, state)
         VALUES ('username123', 'John Smith', '27 California St. Houston, TX', '28 California St. Houston, TX', 'Houston', 'TX');
 INSERT INTO fuel_quote_history(user_id, gallons_requested, delivery_address, delivery_date, price)
-        VALUES ('username123', 5500, '27 California St. Houston, TX', '12/25/2021', 37524);
+        VALUES (1234, 'username123', 5500, '27 California St. Houston, TX', '12/25/2021', 37524);
